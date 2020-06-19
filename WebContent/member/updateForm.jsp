@@ -17,7 +17,7 @@
 	
 	<section>
 		<form action="/apple/member?cmd=updateProc" method="post">
-		<input type="hidden" value="${sessionScope.principal.id}" name="id"> 
+		<input type="hidden" value="${sessionScope.principal.id}" name="id" /> 
 		<table border="1">
 			<tr>
 				<th>유저네임</th>
